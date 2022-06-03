@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-image: url('../images/weather.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+div.weather--app{
+  color: #fff;
+  background-color: rgba(0,0,0, .6);
+  width: 80%;
+  min-height: 80vh;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  box-shadow: 0 0 15px #fff;
+  padding: 10px;
+}
